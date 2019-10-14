@@ -1,0 +1,27 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "search.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+  },
+  "tslint.ignoreDefinitionFiles": false,
+  "tslint.exclude": "**/node_modules/**/*",
+  "tslint.run": "onType",
+  "tslint.packageManager": "npm",
+  "tslint.enable": true,
+  "tslint.configFile": "tslint.json",
+  "cSpell.words": [
+    "pids",
+    "zkapi",
+    "sakura",
+    "gagogroup",
+    "meilai",
+    "qijianbing",
+    "sunhaonan",
+    "huangtaihu",
+    "precommit",
+    "prepush",
+    "commitlint",
+    "commitmsg"
+  ]
+}

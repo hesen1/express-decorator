@@ -1,0 +1,6 @@
+bin/
+src/
+node_modules/
+.gitlab-ci.yml
+gulpfile.js
+tsconfig.json

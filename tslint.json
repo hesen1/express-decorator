@@ -1,0 +1,25 @@
+{
+  "extends": ["@gago/tslint-config"],
+  "rules": {
+    "match-default-export-name": false,
+    "max-file-line-count": false,
+    "object-literal-key-quotes": false,
+    "cyclomatic-complexity": false,
+    "no-parameter-reassignment": false,
+    "array-type":false,
+    "ban-types": [true,
+      ["Object", "Avoid using the `Object` type. Did you mean `object`?"],
+      ["Boolean", "Avoid using the `Boolean` type. Did you mean `boolean`?"],
+      ["Number", "Avoid using the `Number` type. Did you mean `number`?"],
+      ["String", "Avoid using the `String` type. Did you mean `string`?"],
+      ["Symbol", "Avoid using the `Symbol` type. Did you mean `symbol`?"]
+    ],
+    "max-classes-per-file": [true, 10]
+  },
+  "linterOptions": {
+    "exclude": [
+      "src/**/*.spec.ts",
+      "**/*.d.ts"
+    ]
+  }
+}
