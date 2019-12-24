@@ -6,6 +6,7 @@
     "object-literal-key-quotes": false,
     "cyclomatic-complexity": false,
     "no-parameter-reassignment": false,
+    "no-invalid-this": false,
     "array-type":false,
     "ban-types": [true,
       ["Object", "Avoid using the `Object` type. Did you mean `object`?"],
